@@ -1,0 +1,83 @@
+:root {
+  --verde: #00cc44;
+  --cafe: #3b2e2e;
+  --blanco: #ffffff;
+}
+
+body {
+  background-color: var(--cafe);
+  color: var(--blanco);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--verde);
+  color: var(--blanco);
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: var(--blanco);
+  color: #000;
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--verde);
+  color: var(--blanco);
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00a63a;
+}
+
+pre {
+  background-color: #2b1f1f;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 0.9rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  color: var(--verde);
+}
